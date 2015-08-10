@@ -1,0 +1,403 @@
+    .readonly  a.ui-state-default{
+	cursor: default !important;
+    }
+    .white a.ui-state-default{
+	background-color: #FFFFFF;
+	background-image: none;
+    }
+    .grey a.ui-state-default{
+	/*background-color: #d3d3d3;*/
+	background-color: #e8e8e8;
+	background-image: none;
+	color:#6c6c6c;
+    }
+    .green a.ui-state-default{
+	background-color: #E0F6BE;
+	background-image: none;
+    }
+    .ui-state-default .price {
+	background-color: #E0F6BE;
+	color: #6c6c6c;
+    }
+    
+    span.customSelect {
+	font-size:14px;
+	background-color: #183C86;
+	color:#ffffff;
+	padding:5px 7px;
+	border:1px solid #183C86;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px 5px;
+}
+span.customSelect.changed {
+	background-color: #183C86;
+}
+.customSelectInner {
+	background:url(../images/customSelect-arrow.gif) no-repeat center right;
+}
+.rentalPropCurrency {
+    position: relative !important;
+}
+
+  .dp-highlight .ui-state-default {
+        background: #56A4EB;
+          color: #FFF;
+        }
+        
+        .dp-active  .ui-state-default {
+        background: #FFAF02;
+          color: #FFF;
+        }
+        
+        #availCalendar .ui-datepicker
+	{
+	    width: 484px;
+	}
+#availCalendar .ui-datepicker th span{
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	-ms-border-radius:4px;
+	background: none repeat scroll 0 0 #405161;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-ms-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+    color: #fbf7f7;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 28px;
+    padding: 2px 0;
+    text-align: center;
+	
+}
+#availCalendar a.ui-state-default,#availCalendar span.ui-state-default
+{
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    color: #232323 !important;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 0;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 600;	
+}
+#availCalendar .ui-state-default
+{
+    position: relative;
+}
+#availCalendar span.ui-state-default{
+    color: #232323 !important;
+    padding: 10px 0 0 !important;
+}
+#availCalendar span.ui-state-default:after {
+    background: none repeat scroll 0 0 #FF0000;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin: 0 0 0 -30%;
+    position: absolute;
+    top: 29px;
+    width: 60%;
+}
+#availCalendar .white .ui-state-default .price
+{
+    position:absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    background-color: #E0F6BE;
+    color: #6c6c6c;
+}
+#availCalendar .grey .ui-state-default .price
+{
+    position:absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    background-color: #e8e8e8;
+    color: #6c6c6c;
+}
+#availCalendar .ui-state-default .price em{
+	font-size:11px;
+	line-height:11px;
+	clear:both;
+	display:block;
+	font-style:normal;
+	color:#6c6c6c;
+}
+#availCalendar .ui-datepicker td{
+    border: 1px solid #ccc !important;
+}
+#availCalendar .ui-datepicker tr td:last-child{
+    border-right: 0 !important;
+}
+#availCalendar .ui-datepicker tr:last-child td{
+    border-bottom: 0 !important;
+}
+#availCalendar .ui-datepicker td a,#availCalendar .ui-datepicker td span{
+    border: 0 !important;
+}
+
+#availCalendar .ui-widget-header
+{
+    /*background: #E8E8E8;
+    color: #183c86;
+    height: 45px;
+    padding-top: 10px;
+	box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-o-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-moz-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-ms-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;*/
+    border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	-ms-border-radius:4px;
+	background: none repeat scroll 0 0 #2A3B4C;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+	-ms-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+    color: #fbf7f7;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    height: 45px;
+    line-height: 45px;
+    padding: 2px 0;
+    text-align: center;
+}
+
+
+#availCalendar .ui-datepicker-calendar{
+    background: #E8E8E8;
+    color: #183c86;
+    height: 45px;
+    padding-top: 10px;
+	box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-o-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-moz-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+	-ms-box-shadow:0 0 10px 0 rgba(0,0,0,0.3) inset;
+}
+		
+.ui-widget { font-size: 100% }
+#availCalendar .white.readonly .ui-state-default{
+    /*background:#71A661;
+    color:#DEDEE3;*/
+    background:#ffffff;
+    color:#6c6c6c;
+}
+#availCalendar .white .ui-state-active{
+    background: #fff !important;
+    color: #6c6c6c !important;
+}
+
+#availCalendar .grey .ui-state-active{
+    background: #E8E8E8 !important;
+    color: #6c6c6c !important;
+}
+
+
+#availCalendar .ui-datepicker .ui-datepicker-prev .ui-icon{
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid #FFFFFF;
+	text-indent:-99999em;
+	background:none;
+	margin: -10px 0 0 -8px;
+}
+#availCalendar .ui-datepicker .ui-datepicker-next .ui-icon {
+    width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;	
+	border-left: 10px solid #FFFFFF;
+	text-indent:-99999em;
+	background:none;
+	margin: -10px 0 0 -4px;
+}
+#availCalendar .ui-datepicker .ui-datepicker-prev.ui-state-hover, #availCalendar .ui-datepicker .ui-datepicker-next.ui-state-hover{
+	border:0;
+	background:#fff;
+}
+#availCalendar .ui-datepicker .ui-datepicker-prev.ui-state-hover .ui-icon{
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid #183c86;
+	margin: -10px 0 0 -8px;
+}
+#availCalendar .ui-datepicker .ui-datepicker-next.ui-state-hover .ui-icon{
+    width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;	
+	border-left: 10px solid #183c86;
+	margin: -10px 0 0 -4px;
+}
+
+.main-legend .calendar-legend {
+    display: inline-block;
+    /*margin: 90px 10px;*/
+    margin-left:10px;
+    padding-left: 5px;
+    /*background: #33485C;*/
+    vertical-align: middle;
+    text-align: left;
+    /*position: absolute;
+    margin-top: 120px;*/
+}
+.main-legend .container_cal_color {
+    margin-top: 5px;
+    width: 125px;
+    display: inline-block;
+}
+.main-legend .available {
+    
+    /*border: 1px solid #000;*/
+    box-shadow: 0px 0px 1px #000;
+    background: none repeat scroll 0 0 #E0F6BE;	
+}
+.main-legend .unavailable {
+    box-shadow: 0px 0px 1px #000;
+    background: none repeat scroll 0 0 #e8e8e8;	
+}
+.main-legend .available, .main-legend .unavailable {
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    width: 22px;
+}
+.available + .cal_text {
+    /*color: #E0F6BE;*/
+}
+.unavailable + .cal_text {
+    /*color: #e8e8e8;*/
+}
+.main-legend .cal_text {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 5px;
+    vertical-align: super;
+}
+#availCalendar .ui-datepicker .ui-datepicker-prev, #availCalendar .ui-datepicker .ui-datepicker-next{
+	height:96%;
+	width:30px;
+}
+#availCalendar .ui-datepicker-title {
+    clear: both;
+    display: block;
+    height: 32px;
+    line-height: 1;
+    margin: 4px auto 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 40%;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	-ms-border-radius:4px;
+	border: 1px solid #315274;
+    box-shadow: 0 1px 0 #ccc inset;
+	-webkit-box-shadow: 0 1px 0 #ccc inset;
+	-moz-box-shadow: 0 1px 0 #ccc inset;
+	-o-box-shadow: 0 1px 0 #ccc inset;
+	-ms-box-shadow: 0 1px 0 #ccc inset;
+	cursor:pointer;
+}
+#availCalendar .ui-datepicker-title:hover{
+	background:#5784B3;
+}
+#availCalendar .ui-datepicker-title span{
+	display:inline-block;
+	vertical-align:top;
+	line-height:28px;
+	font-size:16px;
+	color:#fff;
+}
+
+#availCalendar .ui-datepicker-title:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 12px;
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #fff;
+}
+#availCalendar .ui-datepicker{
+	padding:0;
+}
+#availCalendar .ui-datepicker-calendar{
+	margin:0;
+}
+#monthContainer ul::-webkit-scrollbar{
+	width:16px;
+	background-color:#cccccc;
+}
+
+
+
+.unavailable-end .ui-state-default:after {
+    border-bottom: 125px solid rgba(0, 0, 0, 0);
+    border-left: 130px solid rgba(255, 0, 0, 0.6);
+    content: "";
+    height: 0;
+    left: -37px;
+    position: absolute;
+    top: -28px;
+    width: 0;
+}
+.unavailable-start .ui-state-default:after {
+    border-bottom: 125px solid rgba(255, 0, 0, 0.6);
+    border-left: 130px solid rgba(0, 0, 0, 0);
+    content: "";
+    height: 0;
+    left: -37px;
+    position: absolute;
+    top: -28px;
+    width: 0;
+}
+.ui-state-default {
+    height: 25px;
+    line-height: 26px !important;
+    min-width: 26px;
+    overflow: hidden;
+    position: relative;
+}
+ .loader{display: none !important;}

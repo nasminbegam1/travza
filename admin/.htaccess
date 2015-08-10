@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /traveldotz/admin/
+
+RewriteCond $1 !^(index\.php|images|css|js|fonts|vendors|SpryAssets|flash|uploadify|html|upload)
+RewriteRule ^(.*)$ /travza/admin/index.php?/$1 [L]

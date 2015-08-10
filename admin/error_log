@@ -1,0 +1,945 @@
+[08-Sep-2014 10:44:19 Asia/Calcutta] PHP Fatal error:  Class 'GoogleAnalyticsAPI' not found in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 25
+[08-Sep-2014 10:44:46 Asia/Calcutta] PHP Fatal error:  Class 'GoogleAnalyticsAPI' not found in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 25
+[08-Sep-2014 10:45:49 Asia/Calcutta] PHP Fatal error:  Class 'GoogleAnalyticsAPI' not found in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 21
+[08-Sep-2014 10:46:30 Asia/Calcutta] PHP Fatal error:  Class 'GoogleAnalyticsAPI' not found in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 21
+[08-Sep-2014 10:51:04 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 12:20:39 Asia/Calcutta] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 33
+[08-Sep-2014 12:21:25 Asia/Calcutta] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 33
+[08-Sep-2014 12:25:08 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(95): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 12:33:44 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(101): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 12:33:56 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(101): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 13:28:00 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthWeb::setState() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 35
+[08-Sep-2014 13:33:03 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleAnalyticsAPI::isAccessTokenExpired() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 78
+[08-Sep-2014 13:37:55 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleAnalyticsAPI::isAccessTokenExpired() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 78
+[08-Sep-2014 13:38:24 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(91): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:41:08 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(92): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:41:32 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(92): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:41:41 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(92): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:45:57 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(97): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:46:17 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(97): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:47:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(98): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:50:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(96): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:51:12 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(97): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:52:07 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(97): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:53:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(97): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 14:54:39 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(97): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 15:17:02 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthWeb::setPrivateKey() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 28
+[08-Sep-2014 15:21:47 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::refreshAccessToken() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 62
+[08-Sep-2014 15:37:51 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(104): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:15:42 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$auth' (T_VARIABLE) in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 86
+[08-Sep-2014 16:16:47 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 61
+[08-Sep-2014 16:17:09 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 61
+[08-Sep-2014 16:17:20 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 61
+[08-Sep-2014 16:17:31 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 61
+[08-Sep-2014 16:20:31 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(95): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:20:52 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 61
+[08-Sep-2014 16:24:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the clientId, email and a path to your private Key' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:477
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(68): GoogleOauthService->getAccessToken()
+#1 [internal function]: Analytics->getanalytics()
+#2 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#4 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 477
+[08-Sep-2014 16:27:23 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:30:20 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:30:41 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:31:17 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:31:43 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the clientId, email and a path to your private Key' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:477
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#1 [internal function]: Analytics->getanalytics()
+#2 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#4 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 477
+[08-Sep-2014 16:31:58 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:32:18 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 61
+[08-Sep-2014 16:32:41 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 60
+[08-Sep-2014 16:33:04 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 60
+[08-Sep-2014 16:33:32 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(98): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:33:56 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(99): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:34:09 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(99): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:34:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the clientId, email and a path to your private Key' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:477
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(68): GoogleOauthService->getAccessToken()
+#1 [internal function]: Analytics->getanalytics()
+#2 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#4 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 477
+[08-Sep-2014 16:35:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:38:39 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:42:26 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:42:27 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:42:39 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 63
+[08-Sep-2014 16:42:51 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 63
+[08-Sep-2014 16:46:08 Asia/Calcutta] PHP Fatal error:  Call to undefined method GoogleOauthService::buildAuthUrl() in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 63
+[08-Sep-2014 16:46:29 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(102): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:47:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(95): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:48:33 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(95): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:48:50 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(96): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[08-Sep-2014 16:49:00 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the clientId, email and a path to your private Key' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:477
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#1 [internal function]: Analytics->getanalytics()
+#2 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#4 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 477
+[08-Sep-2014 16:49:12 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:49:24 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the clientId, email and a path to your private Key' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:477
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#1 [internal function]: Analytics->getanalytics()
+#2 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#4 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 477
+[08-Sep-2014 16:49:55 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the clientId, email and a path to your private Key' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:477
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#1 [internal function]: Analytics->getanalytics()
+#2 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#4 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 477
+[08-Sep-2014 16:50:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:53:02 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:53:44 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:503
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 503
+[08-Sep-2014 16:54:38 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:505
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 505
+[08-Sep-2014 16:55:13 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '*' in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 66
+[08-Sep-2014 16:55:31 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 16:55:52 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 16:56:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 16:56:36 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 16:56:39 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(70): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 16:57:46 Asia/Calcutta] PHP Fatal error:  Cannot access protected property GoogleOauthService::$privateKey in /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php on line 56
+[08-Sep-2014 16:57:56 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 16:58:25 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the clientId, email and a path to your private Key' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:477
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#1 [internal function]: Analytics->getanalytics()
+#2 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#4 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 477
+[08-Sep-2014 16:59:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 17:01:19 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[08-Sep-2014 17:03:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 10:51:36 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(71): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 10:58:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:05:03 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:08:39 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:09:07 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:09:08 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:09:09 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:09:09 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:09:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(56): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:16:54 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:16:55 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:16:56 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:17:48 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:19:08 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:19:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:19:22 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:22:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:23:00 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:23:58 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:23:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:25:05 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:25:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:25:49 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not parse .p12 file' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:532
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 532
+[09-Sep-2014 11:26:31 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not parse .p12 file' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:532
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 532
+[09-Sep-2014 11:26:47 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:33:27 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:40:58 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not sign data' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:541
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 541
+[09-Sep-2014 11:41:18 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:42:49 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:43:09 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(61): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:44:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:44:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:45:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:46:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:51:44 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 11:54:29 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 12:03:21 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 12:07:29 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(85): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[09-Sep-2014 12:11:39 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(81): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[09-Sep-2014 12:11:54 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(81): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[09-Sep-2014 12:12:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(81): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[09-Sep-2014 12:26:44 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 12:27:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:504
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(480): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 504
+[09-Sep-2014 12:27:34 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(85): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[09-Sep-2014 15:22:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Private key does not exist' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:507
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(483): GoogleOauthService->generateSignedJWT()
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(62): GoogleOauthService->getAccessToken()
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 507
+[09-Sep-2014 15:51:16 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(86): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[09-Sep-2014 16:10:17 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(87): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382
+[09-Sep-2014 16:12:20 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Exception' with message 'You must provide the accessToken and an accountId' in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php:382
+Stack trace:
+#0 /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php(134): GoogleAnalyticsAPI->_query(Array)
+#1 /home/liveasia/public_html/livephuket/warp-app/controllers/analytics.php(87): GoogleAnalyticsAPI->query(Array)
+#2 [internal function]: Analytics->getanalytics()
+#3 /home/liveasia/public_html/livephuket/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/liveasia/public_html/livephuket/warp/index.php(202): require_once('/home/liveasia/...')
+#5 {main}
+  thrown in /home/liveasia/public_html/livephuket/warp-app/controllers/GoogleAnalyticsAPI.class.php on line 382

@@ -1,0 +1,61 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2015-06-12 12:17:34 --> Query error: Unknown column 'VD.id' in 'on clause'
+ERROR - 2015-06-12 12:21:52 --> Severity: Notice  --> Undefined property: stdClass::$user_name /var/www/html/traveldotz/admin-app/views/deal/view.php 75
+ERROR - 2015-06-12 12:23:11 --> Severity: Notice  --> Undefined property: stdClass::$user_name /var/www/html/traveldotz/admin-app/views/deal/view.php 75
+ERROR - 2015-06-12 12:29:41 --> Severity: Notice  --> Undefined variable: flyer_info /var/www/html/traveldotz/admin-app/views/deal/view.php 75
+ERROR - 2015-06-12 13:35:44 --> Severity: Notice  --> Undefined variable: result /var/www/html/traveldotz/admin-app/models/model_deal.php 118
+ERROR - 2015-06-12 13:35:44 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/traveldotz/admin-app/models/model_deal.php 118
+ERROR - 2015-06-12 14:27:24 --> 404 Page Not Found --> ownitem
+ERROR - 2015-06-12 14:33:49 --> 404 Page Not Found --> ownitem
+ERROR - 2015-06-12 14:39:19 --> Severity: Notice  --> Undefined property: Ownitem::$model_emailtemplate /var/www/html/traveldotz/admin-app/controllers/ownitem.php 53
+ERROR - 2015-06-12 14:41:54 --> Severity: Notice  --> Undefined variable: add_link /var/www/html/traveldotz/admin-app/views/email/listing.php 77
+ERROR - 2015-06-12 14:41:54 --> Severity: Notice  --> Undefined variable: edit_link /var/www/html/traveldotz/admin-app/views/email/listing.php 138
+ERROR - 2015-06-12 14:41:54 --> Severity: Notice  --> Undefined variable: edit_link /var/www/html/traveldotz/admin-app/views/email/listing.php 138
+ERROR - 2015-06-12 14:43:57 --> Severity: Notice  --> Undefined variable: edit_link /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 138
+ERROR - 2015-06-12 14:43:57 --> Severity: Notice  --> Undefined variable: edit_link /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 138
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 147
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_name /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: responce_email /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 162
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: email_subject /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 163
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 180
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 189
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 147
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_name /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: responce_email /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 162
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: email_subject /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 163
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 180
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 189
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 147
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_name /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: responce_email /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 162
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: email_subject /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 163
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 180
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 189
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 147
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_name /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: responce_email /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 162
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: email_subject /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 163
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 180
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 189
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 147
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_name /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: responce_email /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 162
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: email_subject /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 163
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 180
+ERROR - 2015-06-12 15:00:32 --> Severity: Notice  --> Undefined index: template_id /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 189
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 170
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: emailList /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 182
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 170
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: emailList /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 182
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 170
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: emailList /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 182
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 170
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: emailList /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 182
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 161
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: status /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 170
+ERROR - 2015-06-12 15:02:17 --> Severity: Notice  --> Undefined variable: emailList /var/www/html/traveldotz/admin-app/views/ownitem/listing.php 182

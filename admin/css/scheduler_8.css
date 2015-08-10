@@ -1,0 +1,223 @@
+﻿.scheduler_8_main,
+.scheduler_8_rowheader,
+.scheduler_8_timeheadercol,
+.scheduler_8_timeheadergroup
+{
+	/*font-family: Segoe UI Light,Segoe UI,Arial,Helvetica,Verdana,Sans Serif;*/
+}
+
+.scheduler_8_event_inner  
+{
+	position:absolute;
+	left:0px;
+	right: 1px;
+	top: 0px;
+	bottom: 1px;
+	padding: 4px;
+	
+	font-size: 11px;
+	color: #ffffff;
+	background: #000000;
+}
+
+.scheduler_8_event_inner
+{
+	-ms-transition: background-color .3s linear;
+	-moz-transition: background-color .3s linear;
+	-webkit-transition: background-color .3s linear;
+	transition: background-color .3s linear;	
+}
+
+.scheduler_8_event:hover .scheduler_8_event_inner 
+{
+	background: #ffffbb;
+}
+
+.scheduler_8_event .scheduler_8_action:hover
+{
+	opacity: 1;
+	filter: none;
+}
+
+.scheduler_8_red .scheduler_8_event_inner 
+{
+	border: 1px solid #c00004;
+	background: #ab0000;
+	background: -moz-linear-gradient(
+		top,
+		#ff2819 0%,
+		#ab0000);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ff2819),
+		to(#ab0000));
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#ff2819", endColorStr="#ab0000");
+}
+
+.scheduler_8_main 
+{
+	border: 2px solid #7a97b4;
+	background: #ffffff;
+}
+
+.scheduler_8_timeheader 
+{
+	cursor: default;
+	color: #666;
+}
+
+.scheduler_8_message
+{
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	padding: 10px; 
+	color: #fff;
+	background: #045776;
+}
+
+.scheduler_8_timeheadergroup,
+.scheduler_8_timeheadercol,
+.scheduler_8_rowheader,
+.scheduler_8_corner
+{
+	color: #333333;
+	background: #fff;
+
+	-ms-transition: background-color .3s linear;
+	-moz-transition: background-color .3s linear;
+	-webkit-transition: background-color .3s linear;
+	transition: background-color .3s linear;	
+}
+
+.scheduler_8_timeheadergroup:hover,
+.scheduler_8_timeheadercol:hover,
+.scheduler_8_rowheader:hover,
+.scheduler_8_corner:hover
+{
+	/*background: #f1f1f1;*/
+}
+
+.scheduler_8_timeheadergroup_inner
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	text-align: center;
+	border-right: 1px solid #a4bacf;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	padding: 3px;
+}
+
+.scheduler_8_timeheadercol_inner
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	text-align: center;
+	border-right: 1px solid #a4bacf;
+	background:#e2ebf4;
+	padding: 3px;
+	font-size:10px;
+	line-height:24px;
+}
+
+.scheduler_8_cellcolumn 
+{
+	background: #fff;
+}
+
+.scheduler_8_tree_image_no_children {
+	background-image: url('scheduler_blue/tree_nochildren.png');
+}
+.scheduler_8_tree_image_expand {
+	background-image: url('scheduler_blue/tree_expand.png');
+}
+.scheduler_8_tree_image_collapse {
+	background-image: url('scheduler_blue/tree_collapse.png');
+}
+
+.scheduler_8_divider 
+{
+	background-color: #ccc;
+}
+
+.scheduler_8_divider_horizontal
+{
+	background-color: #7a97b4;
+}
+
+.scheduler_8_matrix_vertical_line 
+{
+	background-color: #a4bacf;
+}
+
+.scheduler_8_matrix_horizontal_line 
+{
+	background-color: #a4bacf;
+}
+
+.scheduler_8_resourcedivider 
+{
+	background-color: #7a97b4;
+}
+
+.scheduler_8_shadow_inner 
+{
+	background-color: #666666;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	height: 100%;
+}
+
+.scheduler_8_cellparent {
+	background-color: #f8f8f8;
+}
+
+.scheduler_8_tree_image_no_children {
+	background-image: url('scheduler_8/tree_nochildren.png');
+}
+.scheduler_8_tree_image_expand {
+	background-image: url('scheduler_8/tree_expand.png');
+}
+.scheduler_8_tree_image_collapse {
+	background-image: url('scheduler_8/tree_collapse.png');
+}
+
+.scheduler_8_timeheadergroup{
+	font-size:11px;
+	height:20px;
+}
+tr:nth-child(odd) td .scheduler_8_rowheader{
+	background:#dce7f1;
+	font-size:11px;
+	font-weight:bold;
+	line-height:30px;
+	padding:0 0 0 10px;
+}
+tr:nth-child(even) td .scheduler_8_rowheader{
+	background:#c2d5e5;
+	font-size:11px;
+	font-weight:bold;
+	line-height:30px;
+	padding:0 0 0 10px;
+}
+.scheduler_8_rowheader a{
+	color:#333;
+}
+tr:nth-child(odd) td .scheduler_8_rowheader .scheduler_8_resourcedivider{
+	background:#dce7f1;
+}
+tr:nth-child(even) td .scheduler_8_rowheader .scheduler_8_resourcedivider{
+	background:#c2d5e5;
+}
+.calNavigation { background: #c5d3de; height: 100%;width:100%; text-align: center;position:absolute;z-index:999;left:0;top:0; }
+.calNavPrev, .calNavNext { background: url(../images/prev.png) no-repeat scroll 0 0; cursor: pointer; display: inline-block; height: 38px; margin: 12px 0 0; width: 38px; background-size: 38px auto; }
+.calNavNext { background: url(../images/next.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0); background-size: 38px auto; }
+.calCalendar { display: inline-block; }
+.calCalendar .calGotoToday { font-size: 10px; padding-bottom: 5px; position: relative; font-weight: bold; display: inline-block; cursor: pointer; }
+.calCalendar img { cursor: pointer; }

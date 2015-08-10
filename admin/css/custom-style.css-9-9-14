@@ -1,0 +1,115 @@
+#rootwizard-custom-circle li:first-child{
+	margin-left: 5%;
+}
+.hover-effect .info .form-element{
+	clear:both;
+	display:inline-block;
+	padding:0 0 5px 0;
+	width:100%;
+	vertical-align:top;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+.hover-effect .info .form-element label{
+	color:#fff;
+}
+.hover-effect .info .form-element label input[type="radio"]{
+	width:auto;
+	height:auto;
+	clear:none;
+	vertical-align:top;
+	display: inline-block;
+    margin: 2px 6px 0 0;
+}
+.hover-effect .info .form-element.make-default-spn{
+	padding:10px;
+	background:rgba(18, 6, 6, 0.6);
+	text-align:left;
+	margin:0 0 20px 0;
+}
+.hover-effect .info .form-element.make-default-spn label{
+	color:#ed4280;
+}
+.hover-effect .info .form-element.make-default-spn .iradio_minimal-grey{
+	vertical-align:top;
+	margin:0 10px 0 0;
+}
+.hover-effect .info .form-element.cross-image {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: auto;
+}
+.form-element.cross-image .fa{
+	font-size: 30px;
+    font-weight: normal;
+    color: #E13636;
+}
+.selected-feature-image .hover-effect .img{
+	border:0;
+	position:relative;
+}
+.selected-feature-image .hover-effect .img:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 99.9%;
+    border: 10px solid #28D370;
+    box-sizing: border-box;
+    content: "";
+}
+.gallery-pages .ajax-upload-dragdrop{
+	width:100%;
+	padding:50px 20px 40px;
+	text-align:center;
+	background:rgba(237, 114, 171, 0.11);
+}
+.gallery-pages .ajax-upload-dragdrop .ajax-file-upload{
+	border-radius:0;
+	box-shadow:none;
+	font-weight:normal;
+	padding:12px;
+	background:#5cb85c;
+	color:#fff;
+	font-size:14px;
+}
+.gallery-pages .ajax-upload-dragdrop span b {
+    color: #232323;
+    font-weight: 600;
+}
+.parent-loader{
+	padding:20px 0;
+	text-align:center;
+}
+#rootwizard-custom-circle .tab-content .gallery-pages .action-top.text-right{
+	margin:0 0 20px 0;
+	border-top:0;
+	border-bottom:1px solid #e6e6e6;
+}
+.gallery-pages > #status {
+    clear: both;
+    color: #c55151;
+    display: inline-block;
+    font-size: 46px;
+    line-height: 46px;
+    padding:0;
+    vertical-align: top;
+	position:relative;
+}
+.gallery-pages > #status .fa{
+	position:absolute;
+	left:200px;
+	top:20px;
+}
+.hover-effect .info .form-control:focus{
+	border-color:#28D370;
+}
+.hover-effect .info .ajaxloader{
+    height: 32px;
+    margin: 20px auto 0;
+    width: 41px;
+}
