@@ -1,7 +1,7 @@
  
         <form action="<?php echo BACKEND_URL; ?>login/do_forgotpassword/" method="post" id="register_form" class="form form-validate-signin">
 	<div style="text-align: center; border-bottom: 1px solid #ccc;  padding-top:10px;">
-            <img src="<?php echo FRONTEND_URL.'images/logo3.png'; ?>" title="" />
+            <img src="<?php echo FRONTEND_URL.'images/logo3.png'; ?>" alt="admin-logo" title="" />
         </div>
         <div class="body-content">
             

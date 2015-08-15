@@ -10,10 +10,9 @@ class Dashboard extends CI_Controller {
 	
 	public function index()
 	{
+		//echo 'ddf';exit;
 		chk_login();
-		//$this->load->view('welcome_message');
 		$this->data = '';
-		//pr($this->nsession->all_userdata());
 		
 		$this->data['msg'] = $this->nsession->userdata('msg');
 		$this->nsession->set_userdata('msg', '');

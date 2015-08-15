@@ -6,20 +6,15 @@ class Profile extends CI_Controller{
     public function __construct(){
         parent:: __construct();
        
-        $this->load->model("model_adminuser");
-        $this->load->model("user_model");
+        $this->load->model("model_user");
     }
     
     public function index()
     {
         chk_login();
         $this->data='';
-	$profile_type = $this->uri->segment(3);
-        //$page_type	= $this->uri->segment(3, 0);
-        //$this->data['result']=$page_type;
         $logged_id=$this->nsession->userdata('admin_id');
         $type=$this->nsession->userdata('role');
-       
         
         if($this->input->get_post('profile') == 'editprofile'){
             
@@ -51,9 +46,7 @@ class Profile extends CI_Controller{
 					$user_image = '';
 					$sUploaded = image_upload($upload_config, $thumb_config);
 					$user_image = $sUploaded;
-					
-                                        
-					$arr_user_image_old = $this->model_adminuser->get_single($logged_id);
+					$arr_user_image_old = $this->model_user->get_single($logged_id);
 					$user_image_old     = $arr_user_image_old[0]['image'];
 					
 					if($sUploaded == '')
@@ -69,7 +62,7 @@ class Profile extends CI_Controller{
 							unlink(FILE_UPLOAD_ABSOLUTE_PATH.'admin/'.stripslashes($user_image_old));
 							unlink(FILE_UPLOAD_ABSOLUTE_PATH.'admin/thumb/'.stripslashes($user_image_old));
 						}
-						$this->user_model->updateAdminUsersProfile($logged_id, $user_image,$type);
+						$this->model_user->updateUsersProfile($logged_id, $user_image);
 						$this->nsession->set_userdata('succmsg', "Admin user profile details updated successfully.");			
                                                 redirect(base_url()."profile/index/");
                                                 return true;
@@ -77,8 +70,8 @@ class Profile extends CI_Controller{
 				}
 				else {
 					
-                                        $this->user_model->updateAdminUsersProfile($logged_id,'',$type);
-                                        $this->nsession->set_userdata('succmsg', "Admin user profile details updated successfully.");			
+                                        $this->model_user->updateUsersProfile($logged_id,'');
+                                        $this->nsession->set_userdata('succmsg', "User profile details updated successfully.");			
                                         redirect(base_url()."profile/index");
                                         return true;
                             
@@ -100,27 +93,19 @@ class Profile extends CI_Controller{
 			}
                         else
                         {
-                            $this->user_model->updateAdminUsersAccount($logged_id,$type);
-			    $this->nsession->set_userdata('succmsg', "Admin user account details updated successfully.");			
+                            $this->model_user->updateUsersAccount($logged_id);
+			    $this->nsession->set_userdata('succmsg', "User account details updated successfully.");			
 			    redirect(base_url()."profile/index/account");
 			    return true;
                             
                             
                         }
         }
-        if($this->input->get_post('contact') == 'editcontact'){
-            
-                            $this->user_model->updateAdminUsersContact($logged_id,$type);
-			    $this->nsession->set_userdata('succmsg', "Admin user contact details updated successfully.");			
-			    redirect(base_url()."profile/index/contact");
-			    return true;
-                        
-        }
         
         $this->data['base_url'] = BACKEND_URL."dashboard";
 	$this->data['profile_url'] = BACKEND_URL."profile/index";
-        $this->data['user_info'] = $this->model_adminuser->get_single($logged_id);
-	//$this->data['logged_info'] = $this->model_adminuser->get_single($logged_id);
+        $this->data['user_info'] = $this->model_user->get_single($logged_id);
+	//$this->data['logged_info'] = $this->model_user->get_single($logged_id);
 	
        //For breadcrump..........
 		
@@ -150,7 +135,7 @@ class Profile extends CI_Controller{
 		chk_login();
 		$logged_id=$this->nsession->userdata('admin_id');
                 $type=$this->nsession->userdata('role');
-		$bool = $this->model_adminuser->checkNamePairExists($lastname, $logged_id, $type);
+		$bool = $this->model_user->checkNamePairExists($lastname, $logged_id, $type);
 		if(!$bool){
 			$this->form_validation->set_message('is_name_pair_exists', 'The first name & last name pair already exits');
 			return FALSE;
@@ -163,7 +148,7 @@ class Profile extends CI_Controller{
 		chk_login();
 		$logged_id=$this->nsession->userdata('admin_id');
                 $type=$this->nsession->userdata('role');
-		$bool = $this->model_adminuser->get_email_existence($email, $logged_id, $type);
+		$bool = $this->model_user->get_email_existence($email, $logged_id, $type);
 		if(!$bool){
 			$this->form_validation->set_message('is_email_exists', 'The %s already exists');
 			return FALSE;

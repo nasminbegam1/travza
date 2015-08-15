@@ -11,18 +11,20 @@ class MY_Controller extends CI_Controller {
 	 *  Login Check function
 	 */
 	public function chk_login(){
-		$user_id = $this->nsession->userdata('admin_id');
-		if( $user_id == '' || $user_id < 0 )
-		{
-			redirect(BACKEND_URL);
-			return false;
-		}
-		return true;
+		echo 'ddddddddddd';exit;
+		//$user_detail = $this->nsession->userdata('user_detail');
+		//pr($user_detail);
+		//if( $user_id == '' || $user_id < 0 )
+		//{
+		//	redirect(BACKEND_URL);
+		//	return false;
+		//}
+		//return true;
 	}
 	
 	
 	public function chk_not_login(){
-		$user_id = $this->nsession->userdata('admin_id');
+		$user_id = $this->nsession->userdata('user_id');
 		if( $user_id && $user_id != '' )
 		{
 			redirect(BACKEND_URL."dashboard/");

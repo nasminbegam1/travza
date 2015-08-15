@@ -11,30 +11,13 @@ class templatelayout {
      public function __construct()
      {
         $this->obj =& get_instance();
+	$this->obj->load->model("model_user");
      }
 
    
      public function get_topbar()
      {
 	  $this->topbar = '';
-	  
-	  $this->topbar['user_first_name'] = '';
-	   $this->topbar['user_last_name'] = '';
-	  $this->topbar['user_image'] = '';
-	  //echo "aaaaa";pr($this->obj->nsession->userdata('admin_id') );
-	  $logged_id = $this->obj->nsession->userdata("admin_id");
-	  if($logged_id != '')
-	  {
-	       //$logged_id=$this->nsession->userdata('admin_id');
-	       $this->obj->load->model("model_adminuser");
-	       $logged_info = $this->obj->model_adminuser->get_single($logged_id);
-			
-			
-	       $this->topbar['user_first_name']=$logged_info[0]['first_name'];
-	       $this->topbar['user_last_name']=$logged_info[0]['last_name'];
-	       $this->topbar['user_image']=$logged_info[0]['image'];
-	       
-	  }
 	  $this->obj->elements['topbar']='layout/topbar';
 	  $this->obj->elements_data['topbar'] = $this->topbar;	  
      }
@@ -48,11 +31,13 @@ class templatelayout {
 	  $this->obj->elements_data['breadcrump'] = $this->breadcrump;
      }
      
-     public function get_leftmenu($active = '')
+     public function get_leftmenu()
      {
 	  $this->leftmenu = '';
-	  $this->sidebar['active'] = $active;
-	  $this->obj->elements['leftmenu']='layout/leftmenu';
+	  $user_detail 	= $this->obj->nsession->userdata("user_detail");
+	  $role_id	= $user_detail['role_id'];
+	  $this->leftmenu['role']  = $this->obj->model_user->get_role($role_id);
+	  $this->obj->elements['leftmenu']	='layout/leftmenu';
 	  $this->obj->elements_data['leftmenu'] = $this->leftmenu;
      }       
  
@@ -63,7 +48,5 @@ class templatelayout {
 	  $this->obj->elements['footer']='layout/footer';
 	  $this->obj->elements_data['footer'] = $this->footer;
      }
-     
-	
 }
 ?>

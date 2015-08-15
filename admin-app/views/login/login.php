@@ -1,7 +1,7 @@
     <form action="<?php echo BACKEND_URL.'login/do_login/' ?>" class="form form-validate-signin" method="post">
        
         <div class="header-content">
-		<div style="text-align: center; border-bottom: 1px solid #ccc; padding-bottom: 10px;"><img src="<?php echo FRONTEND_URL.'images/logo.png'; ?>" title="" /></div>
+		<div style="text-align: center; border-bottom: 1px solid #ccc; padding-bottom: 10px;"><img alt="admin-logo" src="<?php echo FRONTEND_URL.'images/logo.png'; ?>" title="" /></div>
 		<!--<h1>Log In</h1>-->
 	</div>
         <div class="body-content">

